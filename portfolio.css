@@ -95,4 +95,17 @@ nav a{
     color: white;
 }
 
+@media screen and (max-width: 992px) {
+    
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav a {
+      margin: 10px 0;
+    }
+}
+
+
 
