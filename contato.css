@@ -1,0 +1,108 @@
+nav{
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    background: rgb(236, 175, 61);
+}
+
+
+nav a{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-decoration: none;
+    color: black;
+    max-width: 1150;
+    margin: 0 auto;
+}
+
+
+.email{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 100px
+    
+    
+}
+.email img{
+    width: 45px;
+}
+.email h2{
+    margin-top: 10px;
+    
+}
+
+.telefone{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 25px;
+    margin-right: 130px;
+
+}
+
+.telefone img{
+    width: 45px;
+}
+
+h1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: 65px;
+    
+}
+
+.insta{
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    margin-right: 165px; 
+    margin-top: 10px; 
+
+}
+
+
+.insta img{
+    width: 45px;
+}
+
+
+.tt{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+    margin-right: 187px;
+
+}
+
+.tt img{
+    width: 35px;
+
+}
+
+.tt h2{
+    margin-left: 8px;
+}
+
+@media only screen and (max-width: 480px) {
+    nav a {
+      font-size: 16px;
+      line-height: 24px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }}
